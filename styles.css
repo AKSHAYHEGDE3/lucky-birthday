@@ -1,0 +1,58 @@
+body{
+    background-color: #f7ca18;
+}
+.container{
+    text-align: center;
+}
+
+h1{
+    margin-top: 2rem;
+}
+
+input{
+    background-color: #f39c12;
+}
+#dob{
+    margin-top: 2rem;
+    font-size: 1.5rem;
+}
+
+#no{
+    margin-top: 2rem;
+    font-size: 1.5rem;
+}
+
+#check{
+    margin-top: 2rem;
+    width: 100px;
+}
+
+#msg{
+    margin-top: 2rem;
+}
+footer{
+    margin-top: 8rem;
+}
+.footer-list {
+    margin: 1rem;
+    font-size: 2rem;
+  }
+  footer p{
+      font-size: large;
+  }
+
+  a{
+    display: inline;
+    text-decoration: none;
+    color: black;
+  }
+
+  img,
+  li {
+    display: inline;
+  }
+  
+  img {
+    width: 60px;
+    padding: 0.2rem;
+  }
