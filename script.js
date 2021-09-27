@@ -23,10 +23,10 @@ function lucky(date,number){
      for(i=0;i<newDate.length;i++){
          sumOfDate=sumOfDate+Number(newDate[i])
      }
-    if(date.value && number.value){
+    if(date.value && (number.value && number.value > 0)){
         lucky(sumOfDate,number.value);
     } else {
-        msg.innerText="enter the details"
+        msg.innerText="enter valid details"
     }
 
 })
